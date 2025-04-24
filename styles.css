@@ -70,7 +70,9 @@ Header {
 
 .contain {
   width: 100%;
-
+  margin-bottom: 0;
+  bottom: 0;
+  
   gap: 2px;
   display: flex;
   flex-wrap: wrap;
@@ -82,6 +84,8 @@ Header {
   background-color: #d4f5f5;
   border: 1px solid black;
   width: 23%;
+  
+  margin-bottom: 0;
   
 }
 
@@ -130,8 +134,9 @@ Header {
 #foot_notice {
   display: block;
   background-color: rgb(18, 18, 99);
-  position: relative;
-  margin-top: 1px;
+ bottom: 0px;
+ margin-bottom: 0;
+
   text-decoration: none;
   text-align: right;
 }
