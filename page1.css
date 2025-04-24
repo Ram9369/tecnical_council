@@ -1,0 +1,124 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+  }
+  
+  Header {
+    background-color: #e56060;
+    border: 1px solid none;
+    max-width: 100%;
+    padding: 1vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: vmax;
+    height: 10%;
+  }
+  
+  .clgName {
+    color: rgb(243, 232, 232);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 3vmin;
+  
+    width: 80%;
+    padding: 0.5rem;
+  }
+  .logo_img1 {
+    width: 20%;
+    height: 10vmax;
+    width: 10vmax;
+    border: 1px solid none;
+    border-radius: 150%;
+    background-size: no-repeat;
+  }
+  .aff {
+    color: yellow;
+  }
+  
+  .ram {
+    background-color: rgb(55, 121, 227);
+  }
+  
+  /* container........... */
+  section{
+    width: 100%;
+    background-color: #abb9bc;
+  }
+  .container{
+    padding:2vmin;
+    width: 80%;
+    height: 70vmin;
+    background-color: #f5f0f5;
+    color: rgb(37, 31, 31);
+    
+  }
+  .head{
+    width: 100%;
+    background-color: lime;
+    padding: 0.5vmin;
+    color: brown;
+    font-weight: bold;
+  }
+  ul{
+    font-size: 2.5vmin;
+  }
+  h5{
+    background-color: rgb(99, 232, 163);
+    padding: 1vmin;
+  }
+  section1{
+    height: 80vmin;
+    width: 100%;
+    background-color: #abb9bc;
+  }
+  .container1{
+    padding:1vmin;
+    width: 100%;
+    background-color: #f5f0f5;
+    color: rgb(37, 31, 31);
+    
+  }
+  .contain{
+    width: 100%;
+    height: 70vmin;
+    background-color: #cec6ce;
+    color: rgb(37, 31, 31);
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .project_view{
+    width: 100%;
+    background-color: #7eb3c5;
+  }
+
+  
+
+
+
+
+
+
+
+  .footer-bottom{
+    background: #15135f;
+    color: rgb(235, 232, 242);
+    width: 100%;
+    
+    display:flex;
+    padding: 1vmin;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+  .footer {
+    width: 75%;
+   padding: 1vmin;
+    display:flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}

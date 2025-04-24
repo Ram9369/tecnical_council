@@ -1,0 +1,247 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+Header {
+  background-color: #e56060;
+  border: 1px solid none;
+  max-width: 100%;
+  padding: 1vmin;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: vmax;
+  height: 10%;
+}
+
+.clgName {
+  color: rgb(243, 232, 232);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 3vmin;
+
+  width: 80%;
+  padding: 0.5rem;
+}
+.logo_img1 {
+  width: 20%;
+  height: 10vmax;
+  width: 10vmax;
+  border: 1px solid none;
+  border-radius: 150%;
+  background-size: no-repeat;
+}
+.aff {
+  color: yellow;
+}
+
+.ram {
+  background-color: rgb(55, 121, 227);
+}
+.highlight {
+  width: 100%;
+  max-width: 1200px;
+  
+  gap: 0.7rem;
+  display: flex;
+}
+#projects {
+  
+  color: black;
+  
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  max-width: 100%;
+}
+
+
+
+
+.container {
+  width: 100%;
+  height: 80vmin;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.contain {
+  width: 100%;
+
+  gap: 2px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  
+}
+
+.detail {
+  background-color: #d4f5f5;
+  border: 1px solid black;
+  width: 23%;
+  
+}
+
+.about_rec {
+  width: 70%;
+  padding: 1rem;
+  border: #3c0624;
+  color: rgb(26, 20, 13);
+  font-family: system-ui, -apple-system, BlinkMacSystemFont;
+  font-size: 2.5vmin;
+  font-weight: 500;
+}
+.notice {
+  display: block;
+  padding: 0px;
+  bottom: 0;
+}
+
+.note1 {
+  margin-top: 5px;
+  background-color: white;
+  display: block;
+  padding: 0.1rem;
+  color: blue;
+  background-color: #e9f2f2;
+  display: flex;
+}
+#note1 {
+  text-decoration: none;
+  color: black;
+}
+.note_logo {
+  font-size: 1.6rem;
+  margin-top: 1.2rem;
+  height: 1.3vmin;
+}
+#date {
+  margin-left: 1.3rem;
+}
+
+#head_notice {
+  color: white;
+  background-color: rgb(18, 18, 99);
+  padding: 0.5rem;
+}
+#foot_notice {
+  display: block;
+  background-color: rgb(18, 18, 99);
+  position: relative;
+  margin-top: 1px;
+  text-decoration: none;
+  text-align: right;
+}
+.foot_notice {
+  border: none;
+  color: white;
+  background-color: #004080;
+  
+}
+#wel {
+  color: rgb(207, 9, 9);
+  line-height: 2rem;
+}
+
+.owner{
+  background-color: #bb1e5f;
+  width: 100%;
+  height: 32vmin;
+  display:flex;
+  margin-top: 2vmin;
+  align-items: center;
+  justify-content: center;
+  gap: 1vmin;
+}
+
+.head {
+  width: 100%;
+  height: 30vmin;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1vmin;
+}
+.head_name {
+  background-color: #d4f5f5;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+  border: 1px solid brown;
+  margin-top: 0.5rem;
+  border-radius: 5px;
+  display: flex;
+  font-size: 0.9rem;
+  gap: 0.6rem;
+  padding: rem;
+}
+h4 {
+  margin-top: 1rem;
+  color: brown;
+}
+
+.mentor {
+  margin: 0.5rem;
+  height: 10rem;
+  width: 8rem;
+  border-radius: 1rem;
+
+  background-size: cover;
+  display: flex;
+}
+
+
+
+
+
+
+.footer-bottom{
+  background: #15135f;
+  color: rgb(235, 232, 242);
+  width: 100%;
+ 
+  display:flex;
+  padding: 1vmin;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+.footer {
+  width: 75%;
+ padding: 1vmin;
+  display:flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+@media screen and (max-width: 985px) {
+ 
+  .footer {
+    background: #15135f;
+  color: rgb(235, 232, 242);
+  width: 100%;
+  display:flex;
+  padding: 1vmin;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  
+  }
+
+  .detail {
+    background-color: #d4f5f5;
+    border: 1px solid black;
+    width: 23%;
+  }
+  .about_rec {
+    width: 75%;
+    padding: 1rem;
+    border: #3c0624;
+    color: rgb(26, 20, 13);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont;
+    font-size: 2.5vmin;
+    font-weight: 500;
+  }
+  
+}
