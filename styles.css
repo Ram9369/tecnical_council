@@ -342,6 +342,7 @@ footer {
     width: 45%;
     display: flex;
     flex-wrap: wrap;
+    padding:1vmin;
     justify-content: space-evenly;
   }
   
