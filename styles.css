@@ -338,6 +338,13 @@ footer {
     flex-wrap: wrap;
     justify-content: space-evenly;
   }
+  .hack_name {
+    width: 47%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+  
   .hackthon {
     width: 100%;
     display: flex;
@@ -348,4 +355,4 @@ footer {
   .footer-container {
     padding: 7vmin;
   }
-}
+
